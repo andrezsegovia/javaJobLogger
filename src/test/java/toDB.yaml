@@ -1,0 +1,5 @@
+userName: jobLoggerLib
+password: jobLogger123
+dbms: mysql
+serverName: localhost
+portNumber: 3306

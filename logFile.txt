@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-03-04T04:40:58.044248Z</date>
+  <millis>1583296858044</millis>
+  <nanos>248000</nanos>
+  <sequence>0</sequence>
+  <logger>MyLog</logger>
+  <level>INFO</level>
+  <class>JobLogger</class>
+  <method>LogMessage</method>
+  <thread>1</thread>
+  <message>This is a message</message>
+</record>
+<record>
+  <date>2020-03-04T04:40:58.060323Z</date>
+  <millis>1583296858060</millis>
+  <nanos>323000</nanos>
+  <sequence>1</sequence>
+  <logger>MyLog</logger>
+  <level>INFO</level>
+  <class>JobLogger</class>
+  <method>LogMessage</method>
+  <thread>1</thread>
+  <message>This is a message</message>
+</record>
+</log>

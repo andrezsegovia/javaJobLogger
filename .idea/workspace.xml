@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59fe9e0c-dda8-4475-8bcf-add60cc1672c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YdpdtmNUeOClaIL6Ubb7nyzs54" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="JobLoggerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaLoggerLib" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JobLoggerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JobLoggerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59fe9e0c-dda8-4475-8bcf-add60cc1672c" name="Default Changelist" comment="" />
+      <created>1583282415782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583282415782</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1499" y="194" width="833" height="656" key="#JobLoggerTest" timestamp="1583293203893">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1499" y="194" width="833" height="656" key="#JobLoggerTest/0.0.2560.1050@0.0.2560.1050" timestamp="1583293203893" />
+    <state x="1011" y="330" width="528" height="383" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583352756877">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1011" y="330" width="528" height="383" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1050@0.0.2560.1050" timestamp="1583352756877" />
+    <state x="1728" y="244" width="488" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1583350838418">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1728" y="244" width="488" height="557" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1050@0.0.2560.1050" timestamp="1583350838418" />
+    <state x="1561" y="38" width="699" height="965" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583347196225">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1561" y="38" width="699" height="965" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1583347196225" />
+    <state x="1603" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1583322263531">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1603" y="352" key="com.intellij.ide.util.TipDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1583322263531" />
+    <state x="933" y="138" width="683" height="767" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583341139834">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="933" y="138" width="683" height="767" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1050@0.0.2560.1050" timestamp="1583341139834" />
+    <state x="938" y="122" width="791" height="804" key="find.popup" timestamp="1583351497304">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="938" y="122" width="791" height="804" key="find.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1583351497304" />
+    <state x="1583" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1583351871660">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1583" y="231" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1583351871660" />
+  </component>
+</project>
