@@ -6,7 +6,7 @@
 - Docker Compose 1.24.1
 - Maven 3.6.3
 
-## Crate the MySQL Docker Container
+## Create the MySQL Docker Container
 
 Downloads MySQl 5.7.27, set the database up and start the container
 ```bash
