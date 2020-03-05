@@ -28,5 +28,11 @@ With the following command we can run all the test
 mvn test
 ```
 
+## Architecture
+
+The following image shows the classes structure view  
+
+![](./assets/Architecture&Design.png)
+
 
 
