@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-03-05T01:18:10.948076Z</date>
+  <millis>1583371090948</millis>
+  <nanos>76000</nanos>
+  <sequence>0</sequence>
+  <logger>MyLog</logger>
+  <level>INFO</level>
+  <class>lib.io.Logger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>[ERROR](March 4, 2020) Error type: This is an error message. To file.</message>
+</record>
+<record>
+  <date>2020-03-05T01:18:10.965356Z</date>
+  <millis>1583371090965</millis>
+  <nanos>356000</nanos>
+  <sequence>1</sequence>
+  <logger>MyLog</logger>
+  <level>INFO</level>
+  <class>lib.io.Logger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>[WARNING](March 4, 2020) Warning type: This is a warning message. To file.</message>
+</record>
+<record>
+  <date>2020-03-05T01:18:10.966917Z</date>
+  <millis>1583371090966</millis>
+  <nanos>917000</nanos>
+  <sequence>2</sequence>
+  <logger>MyLog</logger>
+  <level>INFO</level>
+  <class>lib.io.Logger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>[ERROR](March 4, 2020) Error type: This is an error message. To console.</message>
+</record>
+<record>
+  <date>2020-03-05T01:18:10.968952Z</date>
+  <millis>1583371090968</millis>
+  <nanos>952000</nanos>
+  <sequence>3</sequence>
+  <logger>MyLog</logger>
+  <level>INFO</level>
+  <class>lib.io.Logger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>[MESSAGE](March 4, 2020) Message type: This is a text message. To console.</message>
+</record>
+<record>
+  <date>2020-03-05T01:18:10.970795Z</date>
+  <millis>1583371090970</millis>
+  <nanos>795000</nanos>
+  <sequence>4</sequence>
+  <logger>MyLog</logger>
+  <level>INFO</level>
+  <class>lib.io.Logger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>[MESSAGE](March 4, 2020) Message type: This is a text message. To file.</message>
+</record>
+<record>
+  <date>2020-03-05T01:18:10.981626Z</date>
+  <millis>1583371090981</millis>
+  <nanos>626000</nanos>
+  <sequence>5</sequence>
+  <logger>MyLog</logger>
+  <level>INFO</level>
+  <class>lib.io.Logger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>[WARNING](March 4, 2020) Warning type: This is a warning message. To console.</message>
+</record>
+<record>
+  <date>2020-03-05T01:18:10.993971Z</date>
+  <millis>1583371090993</millis>
+  <nanos>971000</nanos>
+  <sequence>6</sequence>
+  <logger>MyLog</logger>
+  <level>INFO</level>
+  <class>lib.io.Logger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>[MESSAGE](March 4, 2020) This a test message</message>
+</record>
+<record>
+  <date>2020-03-05T01:18:10.995218Z</date>
+  <millis>1583371090995</millis>
+  <nanos>218000</nanos>
+  <sequence>7</sequence>
+  <logger>MyLog</logger>
+  <level>INFO</level>
+  <class>lib.io.Logger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>[WARNING](March 4, 2020) This a test message</message>
+</record>
+<record>
+  <date>2020-03-05T01:18:10.996171Z</date>
+  <millis>1583371090996</millis>
+  <nanos>171000</nanos>
+  <sequence>8</sequence>
+  <logger>MyLog</logger>
+  <level>INFO</level>
+  <class>lib.io.Logger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>[ERROR](March 4, 2020) This a test message</message>
+</record>
+<record>
+  <date>2020-03-05T01:18:10.999249Z</date>
+  <millis>1583371090999</millis>
+  <nanos>249000</nanos>
+  <sequence>9</sequence>
+  <logger>MyLog</logger>
+  <level>INFO</level>
+  <class>lib.io.Logger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>[ERROR](March 4, 2020) This a test message</message>
+</record>
+<record>
+  <date>2020-03-05T01:18:11.000136Z</date>
+  <millis>1583371091000</millis>
+  <nanos>136000</nanos>
+  <sequence>10</sequence>
+  <logger>MyLog</logger>
+  <level>INFO</level>
+  <class>lib.io.Logger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>[MESSAGE](March 4, 2020) This a test message</message>
+</record>
+<record>
+  <date>2020-03-05T01:18:11.000991Z</date>
+  <millis>1583371091000</millis>
+  <nanos>991000</nanos>
+  <sequence>11</sequence>
+  <logger>MyLog</logger>
+  <level>INFO</level>
+  <class>lib.io.Logger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>[WARNING](March 4, 2020) This a test message</message>
+</record>

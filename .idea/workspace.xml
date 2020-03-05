@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59fe9e0c-dda8-4475-8bcf-add60cc1672c" name="Default Changelist" comment="" />
+    <list default="true" id="59fe9e0c-dda8-4475-8bcf-add60cc1672c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lib/io/DatabaseLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lib/io/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lib/utils/LogType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lib/io/LogConsoleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lib/io/LogDbTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lib/io/LogFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lib/io/LoggerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lib/utils/LogFormatterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/JobLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/JobLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/JobLoggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/JobLoggerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/LogConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/LogConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/LogConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/io/LogConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/LogDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/io/LogDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/LogFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/io/LogFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/entity/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/entity/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/utils/LogFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/utils/LogFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JobLoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JobLoggerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/toConsole.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/toDB.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/toFile.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/JobLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/JobLoggerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/LogConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/LogConsole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/LogDb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/LogFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/entity/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/utils/LogFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/JobLoggerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/JobLoggerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-JobLoggerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-JobLoggerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JobLoggerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JobLoggerTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,11 +49,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YdpdtmNUeOClaIL6Ubb7nyzs54" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,8 +67,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in javaLoggerLib">
+    <configuration name="All in javaLoggerLib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaLoggerLib" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JobLoggerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaLoggerLib" />
       <option name="PACKAGE_NAME" value="" />
@@ -35,9 +87,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LogConsoleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaLoggerLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lib.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lib.io" />
+      <option name="MAIN_CLASS_NAME" value="lib.io.LogConsoleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaLoggerLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lib.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lib.io" />
+      <option name="MAIN_CLASS_NAME" value="lib.io.LogFileTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lib.io in javaLoggerLib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaLoggerLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lib.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lib.io" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in javaLoggerLib" />
+        <item itemvalue="JUnit.lib.io in javaLoggerLib" />
+        <item itemvalue="JUnit.LogFileTest" />
         <item itemvalue="JUnit.JobLoggerTest" />
+        <item itemvalue="JUnit.LogConsoleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -59,18 +159,50 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="1499" y="194" width="833" height="656" key="#JobLoggerTest/0.0.2560.1050@0.0.2560.1050" timestamp="1583293203893" />
-    <state x="1011" y="330" width="528" height="383" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583352756877">
+    <state x="1011" y="330" width="565" height="383" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583362821679">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="1011" y="330" width="528" height="383" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1050@0.0.2560.1050" timestamp="1583352756877" />
-    <state x="1728" y="244" width="488" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1583350838418">
+    <state x="1011" y="330" width="565" height="383" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1050@0.0.2560.1050" timestamp="1583362821679" />
+    <state x="1728" y="244" width="488" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1583366393086">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="1728" y="244" width="488" height="557" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1050@0.0.2560.1050" timestamp="1583350838418" />
-    <state x="1561" y="38" width="699" height="965" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583347196225">
+    <state x="1728" y="244" width="488" height="557" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1050@0.0.2560.1050" timestamp="1583366393086" />
+    <state x="1561" y="38" width="699" height="965" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583363301041">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="1561" y="38" width="699" height="965" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1583347196225" />
+    <state x="1561" y="38" width="699" height="965" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1583363301041" />
+    <state width="2518" height="280" key="GridCell.Tab.0.bottom" timestamp="1583371061905">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2518" height="280" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1583371061905" />
+    <state width="2518" height="280" key="GridCell.Tab.0.center" timestamp="1583371061905">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2518" height="280" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1583371061905" />
+    <state width="2518" height="280" key="GridCell.Tab.0.left" timestamp="1583371061905">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2518" height="280" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1583371061905" />
+    <state width="2518" height="280" key="GridCell.Tab.0.right" timestamp="1583371061905">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2518" height="280" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1583371061905" />
+    <state width="2518" height="345" key="GridCell.Tab.1.bottom" timestamp="1583370509807">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2518" height="345" key="GridCell.Tab.1.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1583370509807" />
+    <state width="2518" height="345" key="GridCell.Tab.1.center" timestamp="1583370509807">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2518" height="345" key="GridCell.Tab.1.center/0.0.2560.1050@0.0.2560.1050" timestamp="1583370509807" />
+    <state width="2518" height="345" key="GridCell.Tab.1.left" timestamp="1583370509807">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2518" height="345" key="GridCell.Tab.1.left/0.0.2560.1050@0.0.2560.1050" timestamp="1583370509807" />
+    <state width="2518" height="345" key="GridCell.Tab.1.right" timestamp="1583370509807">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2518" height="345" key="GridCell.Tab.1.right/0.0.2560.1050@0.0.2560.1050" timestamp="1583370509807" />
     <state x="1603" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1583322263531">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -83,9 +215,25 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="938" y="122" width="791" height="804" key="find.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1583351497304" />
-    <state x="1583" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1583351871660">
+    <state x="1583" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1583370195648">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="1583" y="231" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1583351871660" />
+    <state x="1583" y="231" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1583370195648" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/lib/utils/LogFormatterTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/lib/io/LogConsoleTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

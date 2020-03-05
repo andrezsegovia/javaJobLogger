@@ -1,16 +1,16 @@
-package jobLoggerLib.entity;
+package lib.entity;
 
-import jobLoggerLib.LogConfig;
+import lib.LogConfig;
+import lib.utils.LogType;
 
 public class Log {
     private String message;
-    private String type;
+    private LogType type;
     private LogConfig logConfig;
 
-    public Log(String message, String type, LogConfig logConfig) {
+    public Log(String message, LogType type) {
         this.message = message;
         this.type = type;
-        this.logConfig = logConfig;
     }
 
     public String getMessage() {
@@ -21,19 +21,11 @@ public class Log {
         this.message = message;
     }
 
-    public LogConfig getLogConfig() {
-        return logConfig;
-    }
-
-    public void setLogConfig(LogConfig logConfig) {
-        this.logConfig = logConfig;
-    }
-
-    public String getType() {
+    public LogType getType() {
         return type;
     }
 
-    public void setType(String type) {
+    public void setType(LogType type) {
         this.type = type;
     }
 }

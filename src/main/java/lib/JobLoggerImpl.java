@@ -1,12 +1,12 @@
-package jobLoggerLib;
+package lib;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-import jobLoggerLib.entity.Log;
+import lib.entity.Log;
+import lib.io.LogConsole;
+import lib.io.LogDb;
+import lib.io.LogFile;
+import lib.utils.LogType;
 
-import java.io.File;
 import java.io.IOException;
-import java.util.Map;
 
 public class JobLoggerImpl implements JobLogger {
 
@@ -18,55 +18,46 @@ public class JobLoggerImpl implements JobLogger {
 
     public void message(String text) throws Exception {
         if(logConfig.isFileLog()) {
-            Logger logger = new LogFile(this.logConfig);
-            logger.write(new Log("Message type: " + text +". To file.",  "message", this.logConfig));
+            Logger logger = new LogFile(this.logConfig.getLogFileFolder());
+            logger.write(new Log("Message type: " + text +". To file.", LogType.MESSAGE));
         }
         if(logConfig.isConsoleLog()) {
             Logger logger = new LogConsole();
-            logger.write(new Log("Message type: " + text+". To console.", "message", this.logConfig));
+            logger.write(new Log("Message type: " + text+". To console.", LogType.MESSAGE));
         }
         if(logConfig.isDbLog()) {
             Logger logger = new LogDb(this.logConfig);
-            logger.write(new Log("Message type: " + text+". To database.", "message", this.logConfig));
+            logger.write(new Log("Message type: " + text+". To database.", LogType.MESSAGE));
         }
     }
 
     public void warning(String text) throws Exception {
         if(logConfig.isFileLog()) {
-            Logger logger = new LogFile(this.logConfig);
-            logger.write(new Log("Warning type: " + text+". To file.",  "warning", this.logConfig));
+            Logger logger = new LogFile(this.logConfig.getLogFileFolder());
+            logger.write(new Log("Warning type: " + text+". To file.", LogType.WARNING));
         }
         if(logConfig.isConsoleLog()) {
             Logger logger = new LogConsole();
-            logger.write(new Log("Warning type: " + text+". To console.", "warning", this.logConfig));
+            logger.write(new Log("Warning type: " + text+". To console.", LogType.WARNING));
         }
         if(logConfig.isDbLog()) {
             Logger logger = new LogDb(this.logConfig);
-            logger.write(new Log("Warning type: " + text+". To database.", "warning", this.logConfig));
+            logger.write(new Log("Warning type: " + text+". To database.", LogType.WARNING));
         }
     }
 
     public void error(String text) throws Exception {
         if(logConfig.isFileLog()) {
-            Logger logger = new LogFile(this.logConfig);
-            logger.write(new Log("Error type: " + text+". To file.",  "error", this.logConfig));
+            Logger logger = new LogFile(this.logConfig.getLogFileFolder());
+            logger.write(new Log("Error type: " + text+". To file.", LogType.ERROR));
         }
         if(logConfig.isConsoleLog()) {
             Logger logger = new LogConsole();
-            logger.write(new Log("Error type: " + text+". To console.", "error", this.logConfig));
+            logger.write(new Log("Error type: " + text+". To console.", LogType.ERROR));
         }
         if(logConfig.isDbLog()) {
             Logger logger = new LogDb(this.logConfig);
-            logger.write(new Log("Error type: " + text+". To database.", "error", this.logConfig));
+            logger.write(new Log("Error type: " + text+". To database.", LogType.ERROR));
         }
     }
-
-/*    private Map<String, String> readConfigFile(String configFile) throws IOException {
-        *//*System.out.println(this.getClass().getClassLoader().getResource ("test/java/toConsole.yaml") .getFile());
-        File file = new File(this.getClass().getClassLoader().getResource("test/java/toConsole.yaml").getFile());
-        ObjectMapper om = new ObjectMapper(new YAMLFactory());
-        LogConfig logConfig = om.readValue(file, LogConfig.class);
-        System.out.println("LogConfig info: "+ logConfig.toString());
-        return logConfig.map();*//*
-    }*/
 }

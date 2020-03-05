@@ -1,8 +1,6 @@
-package jobLoggerLib;
+package lib;
 
-import jobLoggerLib.entity.Log;
-
-import java.sql.SQLException;
+import lib.entity.Log;
 
 public interface Logger {
     void write(Log log) throws Exception;

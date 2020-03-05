@@ -1,6 +1,4 @@
-package jobLoggerLib;
-
-import java.io.IOException;
+package lib;
 
 public interface JobLogger {
     void message(String text) throws Exception;

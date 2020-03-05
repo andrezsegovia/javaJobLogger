@@ -1,70 +1,68 @@
-import jobLoggerLib.JobLogger;
-import jobLoggerLib.JobLoggerImpl;
-import jobLoggerLib.LogConfig;
+import lib.JobLogger;
+import lib.JobLoggerImpl;
+import lib.LogConfig;
 import org.junit.Test;
-
-import java.io.IOException;
 
 public class JobLoggerTest {
 
     @Test
-    public void messageLogToConsole() throws Exception {
+    public void shouldLogMessageConsole() throws Exception {
         LogConfig logConfig = new LogConfig(true);
         JobLogger jobLogger = new JobLoggerImpl(logConfig);
-        jobLogger.message("This the a text message");
+        jobLogger.message("This is a text message");
     }
 
     @Test
-    public void warningLogToConsole() throws Exception {
+    public void shouldLogWarningToConsole() throws Exception {
         LogConfig logConfig = new LogConfig(true);
         JobLogger jobLogger = new JobLoggerImpl(logConfig);
-        jobLogger.warning("This the a text message");
+        jobLogger.warning("This is a warning message");
     }
 
     @Test
-    public void errorLogToConsole() throws Exception {
+    public void shouldLogErrorToConsole() throws Exception {
         LogConfig logConfig = new LogConfig(true);
         JobLogger jobLogger = new JobLoggerImpl(logConfig);
-        jobLogger.error("This the a text message");
+        jobLogger.error("This is an error message");
     }
     @Test
-    public void messageLogToFile() throws Exception {
-        LogConfig logConfig = new LogConfig(true, "./log");
+    public void shouldLogMessageToFile() throws Exception {
+        LogConfig logConfig = new LogConfig(true, "./integrationTestLog.txt");
         JobLogger jobLogger = new JobLoggerImpl(logConfig);
-        jobLogger.message("This the a text message");
+        jobLogger.message("This is a text message");
     }
 
     @Test
-    public void warningLogToFile() throws Exception {
-        LogConfig logConfig = new LogConfig(true, "./log");
+    public void shouldLogWarningToFile() throws Exception {
+        LogConfig logConfig = new LogConfig(true, "./integrationTestLog.txt");
         JobLogger jobLogger = new JobLoggerImpl(logConfig);
-        jobLogger.warning("This the a text message");
+        jobLogger.warning("This is a warning message");
     }
 
     @Test
-    public void errorLogToFile() throws Exception {
-        LogConfig logConfig = new LogConfig(true, "./log");
+    public void shouldLogErrorToFile() throws Exception {
+        LogConfig logConfig = new LogConfig(true, "./integrationTestLog.txt");
         JobLogger jobLogger = new JobLoggerImpl(logConfig);
-        jobLogger.error("This the a text message");
+        jobLogger.error("This is an error message");
     }
     @Test
-    public void messageLogToDatabase() throws Exception {
+    public void shouldLogMessageToDatabase() throws Exception {
         LogConfig logConfig = new LogConfig(true, "jobLogger", "jobLogger123", "mysql", "localhost", "3306");
         JobLogger jobLogger = new JobLoggerImpl(logConfig);
-        jobLogger.message("This the a text message");
+        jobLogger.message("This is a text message");
     }
 
     @Test
-    public void warningLogToDatabase() throws Exception {
+    public void shouldLogWarningToDatabase() throws Exception {
         LogConfig logConfig = new LogConfig(true, "jobLogger", "jobLogger123", "mysql", "localhost", "3306");
         JobLogger jobLogger = new JobLoggerImpl(logConfig);
-        jobLogger.warning("This the a text message");
+        jobLogger.warning("This is a warning message");
     }
 
     @Test
-    public void errorLogToDatabase() throws Exception {
+    public void shouldLogErrorToDatabase() throws Exception {
         LogConfig logConfig = new LogConfig(true, "jobLogger", "jobLogger123", "mysql", "localhost", "3306");
         JobLogger jobLogger = new JobLoggerImpl(logConfig);
-        jobLogger.error("This the a text message");
+        jobLogger.error("This is an error message");
     }
 }

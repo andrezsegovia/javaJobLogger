@@ -1,1 +1,6 @@
 /home/me/workspace/javaLoggerLib/src/test/java/JobLoggerTest.java
+/home/me/workspace/javaLoggerLib/src/test/java/lib/io/LogConsoleTest.java
+/home/me/workspace/javaLoggerLib/src/test/java/lib/io/LoggerTest.java
+/home/me/workspace/javaLoggerLib/src/test/java/lib/io/LogDbTest.java
+/home/me/workspace/javaLoggerLib/src/test/java/lib/io/LogFileTest.java
+/home/me/workspace/javaLoggerLib/src/test/java/lib/utils/LogFormatterTest.java

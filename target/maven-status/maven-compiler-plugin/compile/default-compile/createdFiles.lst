@@ -1,10 +1,1 @@
-jobLoggerLib/LogConsole.class
-jobLoggerLib/LogDb.class
-jobLoggerLib/entity/Log.class
-jobLoggerLib/LogConfig.class
-jobLoggerLib/LogFile.class
 JobLogger.class
-jobLoggerLib/JobLoggerImpl.class
-jobLoggerLib/JobLogger.class
-jobLoggerLib/utils/LogFormatter.class
-jobLoggerLib/Logger.class
