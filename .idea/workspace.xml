@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59fe9e0c-dda8-4475-8bcf-add60cc1672c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integrationTestLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/integrationTestLog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lib/JobLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/JobLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lib/JobLoggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/JobLoggerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lib/LogConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/entity/LogConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lib/entity/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/entity/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lib/io/DatabaseLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/io/DatabaseLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lib/io/LogDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/io/LogDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JobLoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JobLoggerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lib/io/LogDbTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/io/LogDbTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lib/io/LoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/io/LoggerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lib/JobLoggerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lib/JobLoggerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lib/entity/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lib/entity/Log.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lib/io/DatabaseLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lib/io/DatabaseLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lib/io/LogDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lib/io/LogDb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/JobLoggerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/JobLoggerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-JobLoggerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-JobLoggerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lib.io.LogConsoleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-lib.io.LogConsoleTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lib.io.LogDbTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-lib.io.LogDbTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lib.utils.LogFormatterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-lib.utils.LogFormatterTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lib.io.LogDbTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/lib.io.LogDbTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lib.io.LogFileTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/lib.io.LogFileTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lib.io.LoggerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/lib.io.LoggerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lib.utils.LogFormatterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/lib.utils.LogFormatterTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JobLoggerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JobLoggerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/io/LogDbTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/io/LogDbTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/io/LoggerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/io/LoggerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,10 +180,10 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="938" y="122" width="791" height="804" key="find.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1583351497304" />
-    <state x="1583" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1583370195648">
+    <state x="1583" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1583375649902">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="1583" y="231" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1583370195648" />
+    <state x="1583" y="231" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1583375649902" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
