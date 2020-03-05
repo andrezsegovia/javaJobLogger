@@ -1,7 +1,7 @@
-package jobLoggerLib;
+package lib;
 
-import jobLoggerLib.entity.Log;
-import jobLoggerLib.utils.LogFormatter;
+import lib.entity.Log;
+import lib.utils.LogFormatter;
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
 
