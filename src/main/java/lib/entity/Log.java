@@ -1,6 +1,5 @@
 package lib.entity;
 
-import lib.LogConfig;
 import lib.utils.LogType;
 
 public class Log {

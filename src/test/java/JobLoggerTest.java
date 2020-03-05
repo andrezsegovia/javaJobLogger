@@ -1,6 +1,6 @@
 import lib.JobLogger;
 import lib.JobLoggerImpl;
-import lib.LogConfig;
+import lib.entity.LogConfig;
 import org.junit.Test;
 
 public class JobLoggerTest {

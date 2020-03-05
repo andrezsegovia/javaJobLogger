@@ -1,6 +1,6 @@
 package lib.io;
 
-import lib.LogConfig;
+import lib.entity.LogConfig;
 import lib.Logger;
 import lib.entity.Log;
 import lib.utils.LogFormatter;

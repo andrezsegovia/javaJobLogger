@@ -1,6 +1,6 @@
 package lib.io;
 
-import lib.LogConfig;
+import lib.entity.LogConfig;
 import lib.entity.Log;
 import lib.utils.LogType;
 import org.junit.After;

@@ -1,6 +1,6 @@
 package lib.io;
 
-import lib.LogConfig;
+import lib.entity.LogConfig;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

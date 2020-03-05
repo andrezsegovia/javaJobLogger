@@ -2,43 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59fe9e0c-dda8-4475-8bcf-add60cc1672c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lib/io/DatabaseLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lib/io/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lib/utils/LogType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lib/io/LogConsoleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lib/io/LogDbTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lib/io/LogFileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lib/io/LoggerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lib/utils/LogFormatterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/JobLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/JobLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/JobLoggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/JobLoggerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/LogConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/LogConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/LogConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/io/LogConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/LogDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/io/LogDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/LogFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/io/LogFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/entity/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/entity/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jobLoggerLib/utils/LogFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/utils/LogFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integrationTestLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/integrationTestLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lib/JobLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/JobLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lib/JobLoggerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/JobLoggerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lib/LogConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/entity/LogConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lib/entity/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/entity/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lib/io/DatabaseLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/io/DatabaseLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lib/io/LogDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/io/LogDb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JobLoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JobLoggerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/toConsole.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/toDB.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/toFile.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/JobLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/JobLoggerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/LogConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/LogConsole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/LogDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/LogFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/entity/Log.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jobLoggerLib/utils/LogFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/io/LogDbTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/io/LogDbTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lib/io/LoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/io/LoggerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lib/JobLoggerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lib/JobLoggerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lib/entity/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lib/entity/Log.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lib/io/DatabaseLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lib/io/DatabaseLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lib/io/LogDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lib/io/LogDb.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/JobLoggerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/JobLoggerTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-JobLoggerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-JobLoggerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lib.io.LogConsoleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-lib.io.LogConsoleTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lib.io.LogDbTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-lib.io.LogDbTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-lib.utils.LogFormatterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-lib.utils.LogFormatterTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lib.io.LogDbTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/lib.io.LogDbTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lib.io.LogFileTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/lib.io.LogFileTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lib.io.LoggerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/lib.io.LoggerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/lib.utils.LogFormatterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/lib.utils.LogFormatterTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/JobLoggerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JobLoggerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/io/LogDbTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/io/LogDbTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/io/LoggerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/io/LoggerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,22 +162,22 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="1561" y="38" width="699" height="965" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1583363301041" />
-    <state width="2518" height="280" key="GridCell.Tab.0.bottom" timestamp="1583371061905">
+    <state width="2518" height="280" key="GridCell.Tab.0.bottom" timestamp="1583371082553">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2518" height="280" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1583371061905" />
-    <state width="2518" height="280" key="GridCell.Tab.0.center" timestamp="1583371061905">
+    <state width="2518" height="280" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1583371082553" />
+    <state width="2518" height="280" key="GridCell.Tab.0.center" timestamp="1583371082552">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2518" height="280" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1583371061905" />
-    <state width="2518" height="280" key="GridCell.Tab.0.left" timestamp="1583371061905">
+    <state width="2518" height="280" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1583371082552" />
+    <state width="2518" height="280" key="GridCell.Tab.0.left" timestamp="1583371082552">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2518" height="280" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1583371061905" />
-    <state width="2518" height="280" key="GridCell.Tab.0.right" timestamp="1583371061905">
+    <state width="2518" height="280" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1583371082552" />
+    <state width="2518" height="280" key="GridCell.Tab.0.right" timestamp="1583371082552">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2518" height="280" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1583371061905" />
+    <state width="2518" height="280" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1583371082552" />
     <state width="2518" height="345" key="GridCell.Tab.1.bottom" timestamp="1583370509807">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>

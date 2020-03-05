@@ -1,4 +1,4 @@
-package lib;
+package lib.entity;
 
 import java.util.HashMap;
 import java.util.Map;

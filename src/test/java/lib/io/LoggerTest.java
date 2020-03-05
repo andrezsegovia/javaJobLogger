@@ -1,15 +1,12 @@
 package lib.io;
 
-import lib.entity.Log;
-import org.junit.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.FixMethodOrder;
+import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
-import java.io.IOException;
-import java.util.logging.ConsoleHandler;
-import java.util.logging.FileHandler;
-import java.util.logging.Handler;
-
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 @FixMethodOrder(MethodSorters.JVM)
 public class LoggerTest {

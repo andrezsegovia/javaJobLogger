@@ -1,6 +1,7 @@
 package lib;
 
 import lib.entity.Log;
+import lib.entity.LogConfig;
 import lib.io.LogConsole;
 import lib.io.LogDb;
 import lib.io.LogFile;
